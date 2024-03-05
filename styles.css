@@ -1,0 +1,102 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .carousel-caption {
+    top: initial;
+    bottom: 0;
+    transform: translateY(0);
+    text-align: center; /* Alinea el texto en el centro */
+  }
+}
+
+/* Estilos para dispositivos de escritorio */
+@media (min-width: 768px) {
+  .carousel-caption {
+    top: auto; /* Elimina la posición en la parte superior */
+    bottom: 0; /* Alinea el texto en la parte inferior */
+    transform: translateY(0);
+    text-align: center; /* Alinea el texto en el centro */
+  }
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  padding-top: 1rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #e9ecef;
+}
+
+footer hr {
+  border-top-color: #6c757d;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000000;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  left: -2%;
+}
+
+.carousel-control-next {
+  right: -2%;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+table {
+  margin-top: 2rem;
+}
+
+th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+th,
+td,
+.modal-title {
+  font-weight: bold;
+}
+
+.alinear {
+  text-align: center;
+}
+
